@@ -1,0 +1,59 @@
+
+body {
+	background: #000;
+	background-image: url(../img/black_mamba.png);
+	color: #fff;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.business-header {
+	height: 400px;
+	background: url(../img/arch.jpg) center no-repeat;
+	background-size: cover;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+
+.tagline small{
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+.pic {
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: 30px;
+	margin-bottom: 70px;
+}
+
+img {
+	width: 100%;
+	box-shadow: 0px 0px 20px #fff;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+	margin-left: 10px;
+	border-radius: 5px;
+
+}
+
+footer {
+	margin: 50px 0;
+}
